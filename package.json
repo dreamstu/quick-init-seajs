@@ -3,13 +3,9 @@
   "version": "<%= version %>",
   "description": "<%= description %>",
   "keywords": [],
-  "homepage": "",
   "author": "<%= author %>",
   "repository": {
     "type": "git",
-    "url": ""
-  },
-  "bugs": {
     "url": ""
   },
   "licenses": "MIT",
@@ -17,7 +13,9 @@
     "grunt-build-seajs":"~0.0.1"
   },
   "scripts": {
-    "test": "spm test",
-    "build": "spm build"
+    "build": "quick build"
+  },
+  "modulecfg": {
+    
   }
 }
