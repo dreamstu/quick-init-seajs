@@ -9,9 +9,6 @@
     "url": ""
   },
   "licenses": "MIT",
-  "devDependencies": {
-    "grunt-build-seajs":"~0.0.1"
-  },
   "scripts": {
     "build": "quick build"
   },
